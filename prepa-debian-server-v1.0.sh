@@ -29,6 +29,11 @@ if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
 
         # Installation des logiciels
         apt install vim -y
+        
+        # Ajout chemin PATH
+        echo "export PATH=$PATH:/usr/local/sbin" >> $HOME/.bashrc
+        echo "export PATH=$PATH:/usr/sbin"
+        echo "export PATH=$PATH:/sbin"
 
 else
         echo "Vérifiez votre connexion internet"
