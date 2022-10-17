@@ -1,5 +1,4 @@
-# Scripts
-a script that installs a LAMP server and a GLPI
+Scripts ;)
 
 ## prep-pc-zatou : 
 - Set Hostname
